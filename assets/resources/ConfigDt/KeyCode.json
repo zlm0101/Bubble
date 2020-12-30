@@ -1,0 +1,36 @@
+[
+    {
+        "id": 1001,
+        "codes":{
+            "87":"runUp",
+            "83":"runDown",
+            "65":"runLeft",
+            "68":"runRight",
+			"32":"addBubble"
+        },
+        "reverseCodes":{
+            "87":"runDown",
+            "83":"runUp",
+            "65":"runRight",
+            "68":"runLeft",
+			"32":"addBubble"
+        }
+    },
+	{
+		"id": 1002,
+		"codes": {
+			"38":"runUp",
+            "40":"runDown",
+            "37":"runLeft",
+            "39":"runRight",
+			"16":"addBubble"
+        },
+        "reverseCodes": {
+			"38":"runDown",
+            "40":"runUp",
+            "37":"runRight",
+            "39":"runLeft",
+			"16":"addBubble"
+		}
+	}
+]

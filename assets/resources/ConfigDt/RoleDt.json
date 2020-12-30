@@ -1,0 +1,66 @@
+[
+    {
+        "id": 2001,
+        "bubbleNum": 1,
+		"power": 2,
+		"speed": 110,
+		"speedMax":250,
+		"bubbleNumMax": 6,
+		"powerMax": 7,
+		"prefab":"role1",
+		"anim":{
+			"runUp":"runUp1",
+			"runDown":"runDown1",
+			"runLeft":"runRight1",
+			"runRight":"runRight1"
+		}
+    },
+	{
+		"id": 2002,
+		"bubbleNum": 2,
+		"power": 2,
+		"speed": 90,
+		"speedMax":230,
+		"bubbleNumMax": 6,
+		"powerMax": 8,
+		"prefab":"role2",
+		"anim":{
+			"runUp":"runUp2",
+			"runDown":"runDown2",
+			"runLeft":"runRight2",
+			"runRight":"runRight2"
+		}
+	},
+	{
+		"id": 2003,
+		"bubbleNum": 1,
+		"power": 1,
+		"speed": 90,
+		"speedMax":230,
+		"bubbleNumMax": 8,
+		"powerMax": 8,
+		"prefab":"role3",
+		"anim":{
+			"runUp":"runUp3",
+			"runDown":"runDown3",
+			"runLeft":"runRight3",
+			"runRight":"runRight3"
+		}
+	},
+	{
+		"id": 2004,
+		"bubbleNum": 2,
+		"power": 1,
+		"speed": 70,
+		"speedMax":210,
+		"bubbleNumMax": 8,
+		"powerMax": 7,
+		"prefab":"role4",
+		"anim":{
+			"runUp":"runUp4",
+			"runDown":"runDown4",
+			"runLeft":"runRight4",
+			"runRight":"runRight4"
+		}
+	}
+]

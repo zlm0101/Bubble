@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" tiledversion="1.1.6" orientation="orthogonal" renderorder="left-down" width="15" height="14" tilewidth="40" tileheight="40" infinite="0" nextobjectid="9">
+ <tileset firstgid="1" name="floor 40*40" tilewidth="40" tileheight="40" tilecount="3" columns="3">
+  <image source="tileMap2_0.png" width="120" height="40"/>
+ </tileset>
+ <tileset firstgid="4" name="block 40*80" tilewidth="40" tileheight="80" tilecount="5" columns="5">
+  <image source="tileMap2_1.png" width="200" height="80"/>
+  <tile id="0">
+   <properties>
+    <property name="blast" type="bool" value="false"/>
+    <property name="colli" type="bool" value="true"/>
+    <property name="push" type="bool" value="false"/>
+    <property name="visible" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="blast" type="bool" value="true"/>
+    <property name="colli" type="bool" value="true"/>
+    <property name="push" type="bool" value="true"/>
+    <property name="visible" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="blast" type="bool" value="true"/>
+    <property name="colli" type="bool" value="true"/>
+    <property name="push" type="bool" value="true"/>
+    <property name="visible" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="3">
+   <properties>
+    <property name="blast" type="bool" value="true"/>
+    <property name="colli" type="bool" value="true"/>
+    <property name="push" type="bool" value="false"/>
+    <property name="visible" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="4">
+   <properties>
+    <property name="blast" type="bool" value="true"/>
+    <property name="colli" type="bool" value="true"/>
+    <property name="push" type="bool" value="false"/>
+    <property name="visible" type="bool" value="false"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="floor" width="15" height="14">
+  <data encoding="base64" compression="zlib">
+   eJxjZGBgYAJixmFOM9PBHuZB4M+h6j8mGplLLxoAEm4BQQ==
+  </data>
+ </layer>
+ <layer name="obstacle1" width="15" height="14">
+  <data encoding="base64" compression="zlib">
+   eJxjYKAccAAxKxKfFY2GsTmoYNcoGAWDEQAAbQgAJQ==
+  </data>
+ </layer>
+ <layer name="obstacle2" width="15" height="14">
+  <data encoding="base64" compression="zlib">
+   eJxjYBg4wIKE2YmkR8EoGIwAALgoAEQ=
+  </data>
+ </layer>
+ <layer name="obstacle3" width="15" height="14">
+  <data encoding="base64" compression="zlib">
+   eJxjYBh6gAOI2dFoFhzi6PQoGAW0AAASzwBv
+  </data>
+ </layer>
+ <layer name="obstacle4" width="15" height="14">
+  <data encoding="base64" compression="zlib">
+   eJxjYBh5gAWI2QnQLGj8UTAK8AEAmSAARA==
+  </data>
+ </layer>
+ <layer name="obstacle5" width="15" height="14">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFpAB2IOaA0mxocmxY5Nnp6rpRMFAAAI0IAEY=
+  </data>
+ </layer>
+ <layer name="obstacle6" width="15" height="14">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgF9ACsQMyChNlx8NFp1oFw7CggGQAAhagASw==
+  </data>
+ </layer>
+ <layer name="obstacle7" width="15" height="14">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFQwGwADEHELMDMSuU5kATR+azDIwzRywAAIDkAFM=
+  </data>
+ </layer>
+ <layer name="obstacle8" width="15" height="14">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFwxmwAjELELNDaQY0PoxmQeOz0t2lQxsAAF3gAEc=
+  </data>
+ </layer>
+ <layer name="obstacle9" width="15" height="14">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFowA3YAdiDijNBqVZkfjIACY/EgEASnwAQw==
+  </data>
+ </layer>
+ <layer name="obstacle10" width="15" height="14">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo4A2gAUJM6DR7Gjy7EjyQxEAACwoADM=
+  </data>
+ </layer>
+ <layer name="obstacle11" width="15" height="14">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2BwAQ4gZoHS7FCaAY1mx6NuIAAAOjAAXg==
+  </data>
+ </layer>
+ <layer name="obstacle12" width="15" height="14">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2B4ARYkzE4kn1IAABkQAD4=
+  </data>
+ </layer>
+ <layer name="obstacle13" width="15" height="14">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUoAMOIGaFslmRxJHFOJDEAQeAACU=
+  </data>
+ </layer>
+ <objectgroup name="initPos">
+  <object id="1" x="21" y="53"/>
+  <object id="2" x="579" y="58"/>
+  <object id="3" x="577" y="539"/>
+  <object id="4" x="19" y="538"/>
+  <object id="5" x="299" y="503" height="1"/>
+  <object id="6" x="299" y="53"/>
+  <object id="7" x="20" y="296"/>
+  <object id="8" x="581" y="290"/>
+ </objectgroup>
+</map>

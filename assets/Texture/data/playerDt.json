@@ -1,0 +1,34 @@
+[
+    {
+        "id": 2001,
+        "bubbleNum": 1,
+		"bubblePower": 1,
+		"speed": 110,
+		"bubbleMaxNum": 6,
+		"bubbleMaxPower": 7
+    },
+	{
+		"id": 2002,
+		"bubbleNum": 1,
+		"bubblePower": 2,
+		"speed": 90,
+		"bubbleMaxNum": 6,
+		"bubbleMaxPower": 8
+	},
+	{
+		"id": 2003,
+		"bubbleNum": 1,
+		"bubblePower": 1,
+		"speed": 90,
+		"bubbleMaxNum": 8,
+		"bubbleMaxPower": 8
+	},
+	{
+		"id": 2004,
+		"bubbleNum": 2,
+		"bubblePower": 1,
+		"speed": 70,
+		"bubbleMaxNum": 8,
+		"bubbleMaxPower": 7
+	}
+]
